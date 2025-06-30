@@ -1,0 +1,43 @@
+*,
+*:before,
+*:after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-size: 100%;
+	font-weight: normal;
+}
+
+html,
+body {
+	height: 100%;
+	overflow: hidden;
+}
+html {
+    background-color: goldenrod;
+    cursor: pointer;
+}
+
+body {
+    font-family: serif;
+    font-weight: bold;
+}
+
+p {
+    font-size: 12pt;
+    text-align: right;
+    margin-right: 2%;
+    margin-top: 2%;
+}
+
+h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    font-size: 8vw;
+    text-align: center;
+    color: gold;
+
+}
